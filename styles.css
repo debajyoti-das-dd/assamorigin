@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #1f2933;
+    background: #fafafa;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 40px;
+    position: sticky;
+    top: 0;
+    background: #fafafa;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .logo {
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .nav a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #1f2933;
+    font-size: 14px;
+  }
+  
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 120px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 42px;
+    margin-bottom: 16px;
+  }
+  
+  .hero p {
+    max-width: 600px;
+    margin: 0 auto 32px;
+    color: #4b5563;
+  }
+  
+  .hero-actions .btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 20px;
+    border: 1px solid #1f2933;
+    text-decoration: none;
+    color: #1f2933;
+    font-size: 14px;
+  }
+  
+  /* Sections */
+  .section {
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 60px;
+  }
+  
+  .section.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .section img {
+    width: 45%;
+    border-radius: 4px;
+  }
+  
+  .section-text h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  
+  .section-text p {
+    color: #4b5563;
+  }
+  
+  /* Origin */
+  .origin {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f3f4f6;
+  }
+  
+  .origin h2 {
+    margin-bottom: 16px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+  
+    .section img {
+      width: 100%;
+    }
+  }
+  
